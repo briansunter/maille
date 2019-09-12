@@ -32,7 +32,7 @@ renderer.setClearColor(0x3d3b33)
 const scene = new Scene()
 const camera = new PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000)
 const controls = new OrbitControls(camera)
-camera.position.z = 50
+camera.position.z = 200
 controls.enableDamping = true
 controls.dampingFactor = 0.15
 controls.start()

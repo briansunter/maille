@@ -15,9 +15,6 @@ module.exports = env => {
       new webpack.DefinePlugin({
         DEVELOPMENT: !isProd
       }),
-      new CopyWebpackPlugin([
-        {from: 'src/assets', to: 'assets'}
-      ]),
       new HtmlWebpackPlugin({
         title: isProd ? 'Production' : 'Development',
         meta: {

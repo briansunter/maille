@@ -1,17 +1,11 @@
-import {
-  EffectComposer,
-  BloomEffect,
-  SMAAEffect,
-  RenderPass,
-  EffectPass
-} from 'postprocessing'
-import { TorusReflectionMapping, MeshPhongMaterial, WebGLRenderer, Scene, PerspectiveCamera, PointLight, TorusGeometry, MeshBasicMaterial, Mesh} from 'three'
+import { MeshPhongMaterial, WebGLRenderer, Scene, PerspectiveCamera, PointLight, TorusGeometry, Mesh} from 'three'
 import OrbitControls from './controls/OrbitControls'
 
 /* Custom settings */
 const SETTINGS = {
   useComposer: false
 }
+
 let composer
 let stats
 

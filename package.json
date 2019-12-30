@@ -1,15 +1,14 @@
 {
-  "name": "threejs-starter-kit",
-  "version": "0.2.0",
-  "description": "My workflow for threejs demos",
+  "name": "maille",
+  "version": "0.0.1",
+  "description": "Chainaille in threejs",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --open",
-    "build": "webpack --env.prod",
-    "now-build": "webpack --env.prod"
+    "build": "webpack --env.prod"
   },
-  "repository": "superguigui/threejs-starter-kit",
-  "author": "Guillaume Gouessan <guillaume.gouessan+gh@gmail.com>",
+  "repository": "briansunter/maille",
+  "author": "Brian Sunter<brian@briansunter.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.1.6",
